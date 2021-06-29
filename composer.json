@@ -1,0 +1,36 @@
+{
+    "name": "php-etl/react-loop-adapter",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Kiboko\\Component\\ReactLoopAdapter\\": "src/"
+        },
+        "files": [
+            "src/promises.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "unit\\Kiboko\\Component\\ReactLoopAdapter\\": "tests/unit"
+        }
+    },
+    "require": {
+        "react/event-loop": "^1.1",
+        "php-etl/promise": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "johnkary/phpunit-speedtrap": "*",
+        "mybuilder/phpunit-accelerator": "*",
+        "phpunit/php-invoker": "*"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Grégory Planchat",
+            "email": "gregory@kiboko.fr"
+        }
+    ]
+}
