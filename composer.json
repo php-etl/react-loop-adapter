@@ -2,6 +2,13 @@
     "name": "php-etl/react-loop-adapter",
     "description": "Helper functions for using promises with ReactPHP event loop",
     "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grégory Planchat",
+            "email": "gregory@kiboko.fr"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
@@ -27,11 +34,12 @@
         "mybuilder/phpunit-accelerator": "*",
         "phpunit/php-invoker": "*"
     },
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Grégory Planchat",
-            "email": "gregory@kiboko.fr"
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
         }
-    ]
+    }
 }
