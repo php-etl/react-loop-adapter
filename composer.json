@@ -1,5 +1,6 @@
 {
     "name": "php-etl/react-loop-adapter",
+    "description": "Helper functions for using promises with ReactPHP event loop",
     "type": "library",
     "minimum-stability": "dev",
     "prefer-stable": true,
